@@ -1,0 +1,58 @@
+.pb {
+  border: 1px solid #0068ff;
+  width: 670px;
+  height: 970px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(144, 192, 248, 0.274);
+  padding: 72px 104px 70px 100px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+  /* text-align: justify; */
+}
+.h3 {
+  display: flex;
+  color: #0068ff;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 72px 104px 0px 100px;
+}
+.text {
+  font-size: 16px;
+  color: #797979;
+}
+.button {
+  /* padding: 24px 200px; */
+  /* display: flex; */
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #0068ff;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0068ff;
+  width: 470px;
+  height: 75px;
+}
+.gender {
+  display: flex;
+  flex-direction: row;
+}
+.marketing {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+}
+.checkbox {
+  font-size: 14px;
+  font-weight: 400;
+}
+.hr1 {
+  height: 1px;
+  background-color: #000;
+}

@@ -1,0 +1,20 @@
+.block-container {
+  border: 3px solid blue;
+}
+.inline-container {
+  border: 3px solid red;
+}
+.block-container div {
+  border: 3px solid green;
+  width: 400px;
+  display: inline;
+}
+.inline-container span {
+  background-color: aqua;
+  width: 400px;
+  display: block;
+}
+/* inline요소에는 규격설정불가능 하지만 display:block 요소로 바꿔주면 변현이 가능*/
+/* display: inline,block 은 강제로 변형을 해야할경우 사용한다. */
+/* block요소: div,p,ul,dl,p,h1,h2,h3... */
+/* inline요소: a,span,img,strong,em,input,button,textarea,select */
