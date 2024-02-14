@@ -4,13 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>D-Day_counter</title>
+    <style>
+      /* body {
+      } */
+    </style>
     <script src="./main.js"></script>
   </head>
   <body>
-    <input id="target-year-input" class="target-input" />
-    <input id="target-month-input" class="target-input" />
-    <input id="target-date-input" class="target-input" />
-    <button onclick="dateFormMaker()">버튼</button>
-    <button onclick="counterMake()">버튼1</button>
+    <h1>D-Day</h1>
+    <div id="d-day-container">
+      <div class="d-day-child-container">
+        <span id="days">0</span>
+        <span>일</span>
+      </div>
+      <div class="d-day-child-container">
+        <span id="hours">0</span>
+        <span>시간</span>
+      </div>
+      <div class="d-day-child-container">
+        <span id="mins">0</span>
+        <span>분</span>
+      </div>
+      <div class="d-day-child-container">
+        <span id="sec">0</span>
+        <span>초</span>
+      </div>
+    </div>
+
+    <div id="target-selector">
+      <input id="target-year-input" class="target-input" size="5" /> -
+      <input id="target-month-input" class="target-input" size="5" /> -
+      <input id="target-date-input" class="target-input" size="5" />
+    </div>
+    <!-- <button onclick="dateFormMaker()">버튼</button> -->
+    <button onclick="counterMake()" id="start-btn">카운트다운 시작</button>
   </body>
 </html>
